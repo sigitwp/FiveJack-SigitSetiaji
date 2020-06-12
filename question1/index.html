@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 1 - Open Chat for FiveJack Online Coding Test</title>
+</head>
+<body>
+  
+    <div>
+        <div class="chat-messages">
+        <!-- chat messages here -->
+        </div>
+        <div>
+          <form id="chat-form">
+            <input
+              id="msg"
+              type="text"
+              placeholder="Enter chat here"
+              pattern="[a-zA-Z0-9\s]+"
+              minlength="1"
+              maxlength="100000"
+              required
+            />
+            <button class="btn">Submit</button>
+          </form>
+        </div>
+      </div>
+      <script src="js/main.js"></script>
+</body>
+</html>
